@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		62A360C01E1290970041D4A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360BF1E1290970041D4A2 /* AppDelegate.swift */; };
-		62A360C21E1290970041D4A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360C11E1290970041D4A2 /* ViewController.swift */; };
+		62A360C21E1290970041D4A2 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360C11E1290970041D4A2 /* FirstPage.swift */; };
 		62A360C51E1290970041D4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A360C31E1290970041D4A2 /* Main.storyboard */; };
 		62A360C71E1290970041D4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A360C61E1290970041D4A2 /* Assets.xcassets */; };
 		62A360CA1E1290970041D4A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A360C81E1290970041D4A2 /* LaunchScreen.storyboard */; };
+		62A360D31E12AC690041D4A2 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360D21E12AC690041D4A2 /* SecondPage.swift */; };
+		62A360D91E12AE230041D4A2 /* DoseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360D81E12AE230041D4A2 /* DoseButton.swift */; };
+		62A360DC1E12AF2F0041D4A2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360DB1E12AF2F0041D4A2 /* Constant.swift */; };
+		62A360DE1E12B0590041D4A2 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360DD1E12B0590041D4A2 /* BasicView.swift */; };
+		62A360E01E12B3100041D4A2 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360DF1E12B3100041D4A2 /* ThirdPage.swift */; };
+		62A360E21E12B6190041D4A2 /* ForthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A360E11E12B6190041D4A2 /* ForthPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62A360BC1E1290970041D4A2 /* Drug Dose Conversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drug Dose Conversion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A360BF1E1290970041D4A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62A360C11E1290970041D4A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62A360C11E1290970041D4A2 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		62A360C41E1290970041D4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62A360C61E1290970041D4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62A360C91E1290970041D4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A360CB1E1290970041D4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A360D21E12AC690041D4A2 /* SecondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		62A360D81E12AE230041D4A2 /* DoseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoseButton.swift; sourceTree = "<group>"; };
+		62A360DB1E12AF2F0041D4A2 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		62A360DD1E12B0590041D4A2 /* BasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
+		62A360DF1E12B3100041D4A2 /* ThirdPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
+		62A360E11E12B6190041D4A2 /* ForthPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,52 @@
 		62A360BE1E1290970041D4A2 /* Drug Dose Conversion */ = {
 			isa = PBXGroup;
 			children = (
+				62A360DA1E12AF060041D4A2 /* Util */,
+				62A360D71E12ADDA0041D4A2 /* View */,
+				62A360D61E12AD590041D4A2 /* Model */,
+				62A360D11E12ABBC0041D4A2 /* Controller */,
 				62A360BF1E1290970041D4A2 /* AppDelegate.swift */,
-				62A360C11E1290970041D4A2 /* ViewController.swift */,
 				62A360C31E1290970041D4A2 /* Main.storyboard */,
 				62A360C61E1290970041D4A2 /* Assets.xcassets */,
 				62A360C81E1290970041D4A2 /* LaunchScreen.storyboard */,
 				62A360CB1E1290970041D4A2 /* Info.plist */,
 			);
 			path = "Drug Dose Conversion";
+			sourceTree = "<group>";
+		};
+		62A360D11E12ABBC0041D4A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62A360C11E1290970041D4A2 /* FirstPage.swift */,
+				62A360D21E12AC690041D4A2 /* SecondPage.swift */,
+				62A360DF1E12B3100041D4A2 /* ThirdPage.swift */,
+				62A360E11E12B6190041D4A2 /* ForthPage.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		62A360D61E12AD590041D4A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		62A360D71E12ADDA0041D4A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62A360D81E12AE230041D4A2 /* DoseButton.swift */,
+				62A360DD1E12B0590041D4A2 /* BasicView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		62A360DA1E12AF060041D4A2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				62A360DB1E12AF2F0041D4A2 /* Constant.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62A360C21E1290970041D4A2 /* ViewController.swift in Sources */,
+				62A360C21E1290970041D4A2 /* FirstPage.swift in Sources */,
 				62A360C01E1290970041D4A2 /* AppDelegate.swift in Sources */,
+				62A360E21E12B6190041D4A2 /* ForthPage.swift in Sources */,
+				62A360DC1E12AF2F0041D4A2 /* Constant.swift in Sources */,
+				62A360E01E12B3100041D4A2 /* ThirdPage.swift in Sources */,
+				62A360DE1E12B0590041D4A2 /* BasicView.swift in Sources */,
+				62A360D91E12AE230041D4A2 /* DoseButton.swift in Sources */,
+				62A360D31E12AC690041D4A2 /* SecondPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
