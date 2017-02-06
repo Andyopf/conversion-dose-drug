@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					62A360BB1E1290970041D4A2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K67MQ6KWY6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -316,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K67MQ6KWY6;
 				INFOPLIST_FILE = "Drug Dose Conversion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.Drug-Dose-Conversion";
@@ -328,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K67MQ6KWY6;
 				INFOPLIST_FILE = "Drug Dose Conversion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.Drug-Dose-Conversion";
@@ -355,6 +358,7 @@
 				62A360D01E1290970041D4A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
